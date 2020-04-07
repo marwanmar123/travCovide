@@ -1003,10 +1003,9 @@ $listColor:#1A519E;
     max-width: 120em;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 
     .nav__listes {
-        padding: 0em 4em 0em 0em;
         display: flex;
         flex-direction: column;
 
@@ -1026,7 +1025,6 @@ $listColor:#1A519E;
     }
 
     &__contact {
-        padding: 0em 4em 0em 0em;
         text-align: center;
         line-height: 4.5em;
 
@@ -1071,7 +1069,6 @@ $listColor:#1A519E;
 @media only screen and (max-width:1700px) {
     .footer {
         padding: 5em;
-        // max-width: 120em;
         margin: 0 auto;
         justify-content: space-around;
         flex-direction: row;
