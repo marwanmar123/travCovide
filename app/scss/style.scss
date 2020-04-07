@@ -143,13 +143,14 @@ $listColor:#1A519E;
 
 @media only screen and (max-width:576px) {
     .navbar {
+
         &__logo {
             padding-left: .5em;
             width: 3em;
         }
 
         &__listes {
-            padding-right: .5em;
+            padding-right: 2em;
 
             &--link {
                 color: black;
@@ -229,7 +230,7 @@ $listColor:#1A519E;
             margin: 0 auto;
             text-align: center;
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1em;
             line-height: 2em;
             color: $fontColor;
         }
@@ -240,7 +241,6 @@ $listColor:#1A519E;
 .secOne {
     display: flex;
     justify-content: space-around;
-    // flex-wrap: wrap;
     padding: 2em;
 
     &__img {
@@ -528,7 +528,7 @@ $listColor:#1A519E;
 
         &__img {
             img {
-                width: 25em;
+                width: 22em;
             }
 
         }
