@@ -29,16 +29,12 @@ $listColor:#1A519E;
         &--link {
             color: black;
             padding: 1.5em;
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: bold;
             text-decoration: none;
 
             &:hover {
                 text-decoration: none;
-                color: $fontColor;
-            }
-
-            &:focus {
                 color: $fontColor;
             }
         }
@@ -81,7 +77,7 @@ $listColor:#1A519E;
             &--link {
                 color: black;
                 padding: 1em;
-                font-size: 1.5em;
+                font-size: 1.3em;
                 font-weight: 700;
 
                 &:hover {
@@ -126,7 +122,7 @@ $listColor:#1A519E;
             &--link {
                 color: black;
                 padding: .8em;
-                font-size: 1.3em;
+                font-size: 1.2em;
                 font-weight: 700;
 
                 &:hover {
@@ -157,7 +153,7 @@ $listColor:#1A519E;
             &--link {
                 color: black;
                 padding: .5em;
-                font-size: 1em;
+                font-size: .9em;
                 font-weight: 700;
 
                 &:hover {
@@ -173,7 +169,7 @@ $listColor:#1A519E;
 
     .langue {
         padding: .1em .2em .1em .2em;
-        font-size: 1em;
+        font-size: .9em;
         text-decoration: none;
         height: 1em;
         align-items: center;
@@ -193,10 +189,9 @@ $listColor:#1A519E;
     padding: .5em;
     background-color: #F4CF1B;
     margin-top: 7.9em;
-    width: 100%;
 
     &__dernière {
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-weight: 700;
         text-align: center;
 
@@ -221,7 +216,7 @@ $listColor:#1A519E;
         margin-top: 4.7em;
 
         &__dernière {
-            font-size: 1.7em;
+            font-size: 1.5em;
             font-weight: 700;
             text-align: center;
 
@@ -247,7 +242,7 @@ $listColor:#1A519E;
 
     &__img {
         img {
-            width: 55em;
+            width: 45em;
         }
     }
 
@@ -257,7 +252,7 @@ $listColor:#1A519E;
         &--h1 {
             line-height: 1.5em;
             width: 21em;
-            font-size: 2.5em;
+            font-size: 2.3em;
             font-weight: bold;
             color: $fontColor;
         }
@@ -268,7 +263,7 @@ $listColor:#1A519E;
 
         &--p {
             line-height: 1.5em;
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: bold;
             color: #7F7F7F;
         }
@@ -301,7 +296,7 @@ $listColor:#1A519E;
 
         &__img {
             img {
-                width: 49em;
+                width: 43em;
             }
         }
 
@@ -323,7 +318,7 @@ $listColor:#1A519E;
 
             &--p {
                 line-height: 1.5em;
-                font-size: 2em;
+                font-size: 1.8em;
                 font-weight: bold;
                 color: #7F7F7F;
             }
@@ -379,7 +374,7 @@ $listColor:#1A519E;
 
             &--p {
                 line-height: 1.5em;
-                font-size: 1.6em;
+                font-size: 1.4em;
                 font-weight: bold;
                 color: #7F7F7F;
             }
@@ -414,7 +409,7 @@ $listColor:#1A519E;
 
         &__img {
             img {
-                width: 45em;
+                width: 40em;
             }
 
         }
@@ -426,7 +421,7 @@ $listColor:#1A519E;
             &--h1 {
                 line-height: 1.4em;
                 width: 18em;
-                font-size: 2.5em;
+                font-size: 2em;
                 font-weight: bold;
                 color: $fontColor;
             }
@@ -437,7 +432,7 @@ $listColor:#1A519E;
 
             &--p {
                 line-height: 1.4em;
-                font-size: 2.5em;
+                font-size: 2em;
                 font-weight: bold;
                 color: #7F7F7F;
             }
@@ -483,7 +478,7 @@ $listColor:#1A519E;
             &--h1 {
                 line-height: 1.4em;
                 width: 18em;
-                font-size: 2em;
+                font-size: 1.8em;
                 font-weight: bold;
                 color: $fontColor;
             }
@@ -494,7 +489,7 @@ $listColor:#1A519E;
 
             &--p {
                 line-height: 1.4em;
-                font-size: 2em;
+                font-size: 1.5em;
                 font-weight: bold;
                 color: #7F7F7F;
             }
@@ -638,7 +633,8 @@ $listColor:#1A519E;
 
 .symptomes {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
+    padding: 1em;
     font-weight: 700;
     color: $fontColor;
 }
@@ -653,17 +649,17 @@ $listColor:#1A519E;
         margin: 0 auto;
 
         &--img {
-            width: 10em;
+            width: 8em;
         }
 
         .fiévre {
-            height: 13em;
-            width: 6em;
+            height: 10em;
+            width: 4em;
         }
 
         &--p {
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.3em;
             font-weight: bold;
             color: black;
         }
@@ -674,7 +670,7 @@ $listColor:#1A519E;
 @media only screen and (max-width:992px) {
     .symptomes {
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
         font-weight: 700;
         color: $fontColor;
     }
@@ -736,7 +732,7 @@ $listColor:#1A519E;
 
             &--p {
                 text-align: center;
-                font-size: 1.2em;
+                font-size: 1em;
                 font-weight: bold;
                 color: black;
             }
@@ -772,7 +768,7 @@ $listColor:#1A519E;
             }
 
             &--p {
-                font-size: 1em;
+                font-size: .8em;
                 font-weight: 700;
                 color: black;
             }
@@ -790,8 +786,8 @@ $listColor:#1A519E;
     &__h1 {
         color: #D0E5F0;
         text-align: center;
-        font-size: 3em;
-        font-weight: bold;
+        font-size: 2.5em;
+        font-weight: 700;
     }
 
     &__recommandation {
@@ -802,7 +798,7 @@ $listColor:#1A519E;
     }
 
     p {
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: 600;
         color: white;
     }
@@ -819,7 +815,7 @@ $listColor:#1A519E;
         top: 3em;
 
         &--h1 {
-            font-size: 3em;
+            font-size: 2.4em;
             font-weight: bold;
             color: #F4CF1B;
         }
@@ -829,7 +825,7 @@ $listColor:#1A519E;
             text-decoration: none;
             color: $fontColor;
             background-color: #F4CF1B;
-            font-size: 2.5em;
+            font-size: 2.3em;
             font-weight: bold;
             padding: .4em 1.1em .4em 1.1em;
             border-radius: .2em;
@@ -837,7 +833,7 @@ $listColor:#1A519E;
 
         &--site {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 2.3em;
+            font-size: 2em;
             color: white;
             text-decoration: none;
             border-bottom: .09em solid #F4CF1B;
@@ -855,8 +851,8 @@ $listColor:#1A519E;
         &__h1 {
             color: #D0E5F0;
             text-align: center;
-            font-size: 2.8em;
-            font-weight: bold;
+            font-size: 2.3em;
+            font-weight: 700;
         }
 
         &__recommandation {
@@ -867,7 +863,7 @@ $listColor:#1A519E;
         }
 
         p {
-            font-size: 2.5em;
+            font-size: 1.5em;
             font-weight: 600;
             color: white;
             text-align: center;
@@ -887,7 +883,7 @@ $listColor:#1A519E;
 
             &--h1 {
                 text-align: center;
-                font-size: 3em;
+                font-size: 2.2em;
                 font-weight: bold;
                 color: #F4CF1B;
             }
@@ -898,7 +894,7 @@ $listColor:#1A519E;
                 text-decoration: none;
                 color: $fontColor;
                 background-color: #F4CF1B;
-                font-size: 2.5em;
+                font-size: 2em;
                 font-weight: bold;
                 padding: .4em 1.1em .4em 1.1em;
                 border-radius: .2em;
@@ -906,7 +902,7 @@ $listColor:#1A519E;
 
             &--site {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 2.3em;
+                font-size: 2em;
                 color: white;
                 text-decoration: none;
                 border-bottom: .09em solid #F4CF1B;
@@ -918,7 +914,7 @@ $listColor:#1A519E;
 @media only screen and (max-width:900px) {
 
     .recom {
-        margin-top: 4em;
+        margin-top: 6em;
         padding: 1.5em;
         background: $fontColor;
         margin: 0 auto;
@@ -926,7 +922,7 @@ $listColor:#1A519E;
         &__h1 {
             color: #D0E5F0;
             text-align: center;
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: bold;
         }
 
@@ -938,7 +934,7 @@ $listColor:#1A519E;
         }
 
         p {
-            font-size: 1.4em;
+            font-size: 1.3em;
             font-weight: 600;
             color: white;
             text-align: center;
@@ -960,7 +956,7 @@ $listColor:#1A519E;
 
             &--h1 {
                 text-align: center;
-                font-size: 2.5em;
+                font-size: 1.7em;
                 font-weight: bold;
                 color: #F4CF1B;
             }
@@ -971,7 +967,7 @@ $listColor:#1A519E;
                 text-decoration: none;
                 color: $fontColor;
                 background-color: #F4CF1B;
-                font-size: 2em;
+                font-size: 1.8em;
                 font-weight: bold;
                 padding: .3em 1em .3em 1em;
                 border-radius: .2em;
@@ -979,7 +975,7 @@ $listColor:#1A519E;
 
             &--site {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 2em;
+                font-size: 1.7em;
                 color: white;
                 text-decoration: none;
                 border-bottom: .09em solid #F4CF1B;
@@ -998,13 +994,13 @@ $listColor:#1A519E;
     border-bottom-right-radius: .7em;
 
     &__h1 {
-        font-size: 2.7em;
+        font-size: 2.1em;
         font-weight: bold;
         color: $fontColor;
     }
 
     &__img {
-        width: 6em;
+        width: 5em;
     }
 
     &__a {
@@ -1072,7 +1068,7 @@ $listColor:#1A519E;
         &--a {
             @extend .navbar__listes--link;
             padding: .5em;
-            font-size: 2em;
+            font-size: 1.8em;
             text-align: right;
 
         }
@@ -1089,7 +1085,7 @@ $listColor:#1A519E;
         line-height: 4.5em;
 
         &--firsth1 {
-            font-size: 2.5em;
+            font-size: 2.3em;
             font-weight: bold;
             color: $fontColor;
         }
@@ -1127,6 +1123,7 @@ $listColor:#1A519E;
 }
 
 @media only screen and (max-width:1700px) {
+
     .footer {
         padding: 5em;
         margin: 0 auto;
@@ -1140,7 +1137,7 @@ $listColor:#1A519E;
             &--a {
 
                 padding: .5em;
-                font-size: 1.5em;
+                font-size: 1.3em;
                 text-align: right;
 
             }
@@ -1153,29 +1150,31 @@ $listColor:#1A519E;
             line-height: 4.3em;
 
             &--firsth1 {
-                font-size: 1.6em;
+                font-size: 1.4em;
                 font-weight: bold;
                 color: $fontColor;
             }
 
             &--firsth2 {
                 font-weight: bolder;
-
+                font-size: 1.3em;
             }
 
             &--secondh1 {
                 color: #369D53;
                 font-weight: bolder;
+                font-size: 1.4em;
             }
 
             &--secondh2 {
                 font-weight: bolder;
+                font-size: 1.3em;
             }
 
             &--lasth1 {
                 color: #369D53;
                 font-weight: bolder;
-
+                font-size: 1.4em;
             }
         }
 
@@ -1205,7 +1204,7 @@ $listColor:#1A519E;
             &--a {
 
                 padding: .5em;
-                font-size: 1.5em;
+                font-size: 1.3em;
                 text-align: right;
 
             }
@@ -1217,36 +1216,38 @@ $listColor:#1A519E;
             line-height: 4.3em;
 
             &--firsth1 {
-                font-size: 1.5em;
+                font-size: 1.3em;
                 font-weight: bold;
                 color: $fontColor;
             }
 
             &--firsth2 {
                 font-weight: bolder;
-
+                font-size: 1.2em;
             }
 
             &--secondh1 {
                 color: #369D53;
                 font-weight: bolder;
+                font-size: 1.3em;
             }
 
             &--secondh2 {
                 font-weight: bolder;
+                font-size: 1.2em;
             }
 
             &--lasth1 {
                 color: #369D53;
                 font-weight: bolder;
-
+                font-size: 1.3em;
             }
         }
 
         &__algo {
             text-align: center;
             font-weight: 400;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: #7F7F7F;
             display: flex;
             align-items: center;
@@ -1289,31 +1290,32 @@ $listColor:#1A519E;
 
             &--firsth2 {
                 font-weight: bold;
-                font-size: 1em;
+                font-size: .8em;
 
             }
 
             &--secondh1 {
                 color: #369D53;
                 font-weight: bold;
+                font-size: 1em;
             }
 
             &--secondh2 {
                 font-weight: bold;
-                font-size: 1em;
+                font-size: .8em;
             }
 
             &--lasth1 {
                 color: #369D53;
                 font-weight: bold;
-
+                font-size: 1em;
             }
         }
 
         &__algo {
             text-align: center;
             font-weight: 400;
-            font-size: 1em;
+            font-size: .8em;
             color: #7F7F7F;
             display: flex;
             align-items: center;
@@ -1339,7 +1341,7 @@ $listColor:#1A519E;
     &__h1 {
         margin: .5em auto;
         color: $fontColor;
-        font-size: 2.5em;
+        font-size: 2.3em;
         width: 15em;
     }
 
@@ -1355,6 +1357,7 @@ $listColor:#1A519E;
 
         h1 {
             color: $listColor;
+            font-size: 1.3em;
         }
 
     }
@@ -1363,12 +1366,13 @@ $listColor:#1A519E;
         padding-top: 2em;
 
         &--img {
-            width: 8em;
+            width: 7em;
         }
 
         &--h1 {
             padding: 1em;
             color: $listColor;
+            font-size: 1.3em;
         }
     }
 }
@@ -1380,7 +1384,7 @@ $listColor:#1A519E;
         &__h1 {
             margin: .5em auto;
             color: $fontColor;
-            font-size: 2em;
+            font-size: 1.9em;
             width: 15em;
         }
 
@@ -1424,7 +1428,7 @@ $listColor:#1A519E;
         &__h1 {
             margin: .5em auto;
             color: $fontColor;
-            font-size: 2.5em;
+            font-size: 1.5em;
             width: 15em;
         }
 
@@ -1435,13 +1439,13 @@ $listColor:#1A519E;
 
             &--outil {
                 img {
-                    width: 8em;
+                    width: 7em;
                 }
             }
 
             h1 {
                 color: $listColor;
-                font-size: 1.5em;
+                font-size: 1.3em;
             }
 
         }
@@ -1450,26 +1454,26 @@ $listColor:#1A519E;
             padding-top: 2em;
 
             &--img {
-                width: 8em;
+                width: 6em;
             }
 
             &--h1 {
                 padding: 1em;
                 color: $listColor;
-                font-size: 1.5em;
+                font-size: 1.3em;
             }
         }
     }
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:800px) {
     .protection {
         text-align: center;
 
         &__h1 {
             margin: .5em auto;
             color: $fontColor;
-            font-size: 2em;
+            font-size: 1.3em;
             width: 10em;
         }
 
@@ -1514,7 +1518,7 @@ $listColor:#1A519E;
         &__h1 {
             margin: .5em auto;
             color: $fontColor;
-            font-size: 1.5em;
+            font-size: 1em;
             font-weight: bold;
             width: 10em;
         }
@@ -1526,7 +1530,7 @@ $listColor:#1A519E;
 
             &--outil {
                 img {
-                    width: 7em;
+                    width: 6em;
                 }
             }
 
@@ -1542,11 +1546,11 @@ $listColor:#1A519E;
             padding-top: 2em;
 
             &--img {
-                width: 7em;
+                width: 6em;
             }
 
             &--h1 {
-                padding: 1.5em;
+                padding: 1.2em;
                 color: $listColor;
                 font-size: 1.2em;
             }
@@ -1564,12 +1568,12 @@ $listColor:#1A519E;
     &__inforOne {
 
         h1 {
-            font-size: 4em;
+            font-size: 3em;
             color: $fontColor;
         }
 
         h2 {
-            font-size: 2em;
+            font-size: 1.7em;
             color: $listColor;
         }
     }
@@ -1580,14 +1584,14 @@ $listColor:#1A519E;
         text-decoration: none;
         border-radius: .3em;
         font-size: 1.5em;
-        padding: 1em;
+        padding: .8em;
         position: relative;
         top: 5em;
     }
 
     &__inforthree {
         @extend .informations__infortow;
-        padding: 1em 2.5em 1em 2.5em;
+        padding: .8em 2.3em .8em 2.3em;
     }
 }
 
@@ -1618,7 +1622,7 @@ $listColor:#1A519E;
             text-decoration: none;
             border-radius: .3em;
             font-size: 1.2em;
-            padding: 1em;
+            padding: .8em;
             position: relative;
             top: 5em;
         }
@@ -1631,7 +1635,7 @@ $listColor:#1A519E;
             font-size: 1.2em;
             position: relative;
             top: 5em;
-            padding: 1em 2.5em 1em 2.5em;
+            padding: .8em 2.3em .8em 2.3em;
         }
     }
 
@@ -1710,7 +1714,7 @@ $listColor:#1A519E;
             text-decoration: none;
             border-radius: .3em;
             font-size: 1em;
-            // padding: .2em;
+            padding: .2em;
             position: relative;
             top: 0;
         }
@@ -1720,10 +1724,10 @@ $listColor:#1A519E;
             color: white;
             text-decoration: none;
             border-radius: .3em;
-            font-size: 1em;
+            font-size: .7em;
             position: relative;
             top: 0;
-            // padding: .8em 2em .8em 2em;
+            padding: .6em 1em .6em 1em;
         }
     }
 
@@ -1732,7 +1736,7 @@ $listColor:#1A519E;
 .COVID {
     padding: 1em;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: $fontColor;
 }
 
@@ -1745,15 +1749,6 @@ $listColor:#1A519E;
     }
 }
 
-// @media only screen and (max-width:800px) {
-//     .COVID {
-//         padding: 1.8em;
-//         text-align: center;
-//         font-size: 1.2em;
-//         color: $fontColor;
-//     }
-// }
-
 .transmet {
     margin: 1em auto;
     display: flex;
@@ -1764,11 +1759,12 @@ $listColor:#1A519E;
         text-align: center;
 
         img {
-            width: 10em;
+            width: 8em;
         }
 
         h1 {
             color: $listColor;
+            font-size: 1.5em;
         }
     }
 
@@ -1776,11 +1772,12 @@ $listColor:#1A519E;
         text-align: center;
 
         img {
-            width: 10em;
+            width: 8em;
         }
 
         h1 {
             color: $listColor;
+            font-size: 1.5em;
         }
     }
 }
@@ -1800,7 +1797,7 @@ $listColor:#1A519E;
             }
 
             h1 {
-                font-size: 1.5em;
+                font-size: 1.3em;
                 color: $listColor;
             }
         }
@@ -1813,7 +1810,7 @@ $listColor:#1A519E;
             }
 
             h1 {
-                font-size: 1.5em;
+                font-size: 1.3em;
                 color: $listColor;
             }
         }
@@ -1871,7 +1868,7 @@ $listColor:#1A519E;
             }
 
             h1 {
-                font-size: 1.5em;
+                font-size: 1.2em;
                 color: $listColor;
             }
         }
@@ -1884,7 +1881,7 @@ $listColor:#1A519E;
             }
 
             h1 {
-                font-size: 1.5em;
+                font-size: 1.2em;
                 color: $listColor;
             }
         }
