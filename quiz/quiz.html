@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>TestCVD</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <!-- <link rel="stylesheet" href="quiz.css"> -->
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="navbar__logo" src="../Design/Assets/SVG/logo__sante.svg" alt="">
+        <div class="navbar__listes">
+            <a href="../htmlFiles/conseil.html" class="navbar__listes--link">Conseil</a>
+            <a href="../index.html" class="navbar__listes--link current">Aceuil</a>
+            <a href="#" class="langue">عربي
+                <img class="langue__icolangue" src="../Design/Assets/SVG/Icon material-language.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <article class="info">
+        <h3 class="info__dernière">LA DERNIÈRE INFO MÉDICALE</h3>
+        <p class="info__Médicale">
+            La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur<br>
+            d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.<br>
+            N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.
+        </p>
+    </article>
+    <section class="testing">
+        <hr class="hr">
+        <div class="wrapper">
+            <section class="stepper">
+                <h1 class="select">Informations</h1>
+                <h1>Questionnaire</h1>
+                <h1>Résultats</h1>
+            </section>
+        </div>
+
+        <section class="Préambule">
+            <h1>Préambule</h1>
+            <p class="Préambule--para1">L’application est fournie à titre gratuit, en
+                l’état, uniquement à des fins d’information pour contribuer à fluidifier la
+                prise en charge des personnes par les services d’urgences pendant l’épidémie de
+                Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des
+                informations et contenus mis à disposition dans cette application, ou leur
+                adéquation à des finalités particulières, ne sont pas garantis.</p>
+            <p class="Préambule--para2">Cette application ne substitue pas votre médecin qui
+                est plus apte à vous donner plus de précision. Les informations de cette
+                application est le premier niveau de la détection des cas possibles du COVID-19.
+            </p>
+
+        </section>
+
+        <button class="start-btn">Démarrer le test</button>
+        <section class="questionnaire">
+            <div class="progress">
+                <div class="progress__bar">
+                    <div class="bar"></div>
+                </div>
+                <h3><span class="question-number">1</span>/22</h3>
+            </div>
+
+            <div class="animation">
+                <h1 class="question"></h1>
+                <div class="answer-inputs"></div>
+                <div class="btn-container">
+                    <button class="previous">Précédent</button>
+                    <button class="next ">Suivant</button>
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+
+
+
+    <section class="recom">
+        <h1 class="recom__h1">Recommandations officielles</h1>
+        <div class="recom__recommandation">
+            <div>
+                <p class="blackP">Si vous pensez être malade,</p>
+                <p>évitez les endroits publics.</p>
+                <p>Ne rendez pas visite aux personnes fragiles. </p>
+                <p>Évitez de sortir de chez vous.</p>
+                <p>Respectez les mesures barrière (lavage de main, masque).</p>
+                <p>Surveillez vos symptômes, l’évolution de votre température</p>
+                <p>corporelle et recherchez un avis médical.</p>
+            </div>
+            <div class="recommandation__appele">
+                <h1 class="recommandation__appele--h1">Apple Gratuit</h1><br><br>
+                <a class="recommandation__appele--num" href="#">080 100 47 47</a><br><br>
+                <a class="recommandation__appele--site" href="#">www.sante.gov.ma</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="test">
+        <h1 class="test__h1">Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ? </h1>
+        <img class="test__img" src="../Design/Assets/png/1f637.png" alt=""><br>
+        <!-- <button class="test__a">Demarer le test</button> -->
+        <a class="test__a" href="quiz.html">Demarer le test</a>
+
+    </section>
+    <div class="logo-footer">
+        <img src="../Design/Assets/png/logo__sante-11@2x.png" alt="">
+    </div>
+    <div class="footer">
+        <div class="nav">
+            <div class="nav__listes">
+                <a href="#" class="nav__listes--a langue2">عربي
+                    <img class="langue__icolangue" src="../Design/Assets/SVG/Icon material-language.svg" alt="">
+                </a>
+                <a href="../htmlFiles/conseil.html" class="nav__listes--a">Conseil</a>
+                <a href="../index.html" class="nav__listes--a">Aceuil</a>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <h1 class="footer__contact--firsth1">Contacts utiles</h1>
+            <h2 class="footer__contact--firsth2">Chiffre économique "Alo épidémie vigilance"</h2>
+            <h1 class="footer__contact--secondh1">080 100 47 47</h1>
+            <h2 class="footer__contact--secondh2">Aide médicale urgente</h2>
+            <h1 class="footer__contact--lasth1">114</h1>
+        </div>
+        <div class="footer__algo">
+            <p>Algorithme d'orientation mis à jour sur les recommandations en vigueur<br>
+                au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,<br>
+                il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance<br>
+                Digitale contre le COVID-19 : @maladiecovid19</p>
+        </div>
+    </div>
+    <div class="bare-footer">footer</div>
+
+
+    <script src="../src/js/main.js"></script>
+</body>
+
+</html>
