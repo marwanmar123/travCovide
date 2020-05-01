@@ -2190,3 +2190,11 @@ $colorQ:#e9ecef;
     }
 
 }
+
+@media only screen and(max-width:1800px) {
+    .testing {
+        .hr {
+            display: none;
+        }
+    }
+}
