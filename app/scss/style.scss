@@ -1984,7 +1984,7 @@ $colorQ:#e9ecef;
                 position: absolute;
                 top: -25px;
                 z-index: -1;
-                // transition: all 0.3s ease;
+
             }
         }
 
@@ -2014,12 +2014,6 @@ $colorQ:#e9ecef;
     }
 
     .Préambule {
-        // text-align: center;
-        //     margin: 2em auto;
-        //     background-color: #96C5DC;
-        //     max-width: 1200px;
-        //     padding: 2em;
-        //     border-radius: .5em;
         width: 64%;
         text-align: center;
         background-color: #96C5DC;
@@ -2046,18 +2040,10 @@ $colorQ:#e9ecef;
             color: $colorP;
         }
 
-        // hr {
-        //     width: 55%;
-        //     margin: 0 auto;
-        //     border: 2px solid $colorS;
-        // }
-
     }
 
 
     .start-btn {
-        // margin: 40px auto;
-        // text-align: center;
         width: 20%;
         font-size: 22px;
         font-weight: bold;
@@ -2066,17 +2052,10 @@ $colorQ:#e9ecef;
         padding: 10px 20px;
         border-radius: 5px;
         cursor: pointer;
-        // transition: all 0.3s ease;
-
-        // &:hover {
-        //     color: $colorP;
-        //     background-color: transparent;
-        // }
     }
 
     .questionnaire {
         width: 64%;
-        // border: 1px solid;
         margin: 20px auto;
         border-radius: 8px;
         display: none;
@@ -2097,7 +2076,6 @@ $colorQ:#e9ecef;
             display: flex;
             justify-content: center;
             align-items: center;
-            // border-bottom: 1px solid $colorG;
             padding: 7px 0;
             background-color: $colorW;
             border-top-left-radius: 4px;
@@ -2121,7 +2099,6 @@ $colorQ:#e9ecef;
                     background-color: $colorV;
                     border-bottom-left-radius: 20px;
                     border-top-left-radius: 20px;
-                    // transition: all 0.4s ease;
                 }
             }
         }
@@ -2146,14 +2123,8 @@ $colorQ:#e9ecef;
         }
 
         .input-span {
-            // width: 50%;
-            // text-align: center;
             font-size: 25px;
             font-weight: bold;
-            // border: 2px solid $colorP;
-            // border-left: none;
-            // background-color: $colorA;
-            // padding: 10px;
         }
 
         input[type="radio"] {
@@ -2168,18 +2139,15 @@ $colorQ:#e9ecef;
 
         label {
             margin: 0 10px;
-            // height: 72px;
             width: 88px;
             color: $colorP;
             border-radius: 4px;
-            // border: 4px solid $colorP;
             font-size: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 10px 0;
-            // transition: 0.5s ease;
 
             span {
                 font-size: 16px;
@@ -2195,20 +2163,14 @@ $colorQ:#e9ecef;
         justify-content: space-around;
         flex-wrap: w;
 
-        // .next {
-        //     grid-area: 1/3;
-        // }
-
         button {
             width: 20%;
             font-size: 22px;
             font-weight: bold;
             background-color: $colorP;
-            // padding: 5px 10px;
             color: $colorW;
             border: 1px solid $colorP;
             border-radius: 4px;
-            // transition: 0.3s ease;
 
             &:active {
                 background-color: $colorW;
@@ -2217,12 +2179,6 @@ $colorQ:#e9ecef;
 
             &:disabled {
                 cursor: not-allowed;
-                //     opacity: 0.65;
-
-                //     &:hover {
-                //         background-color: $colorA !important;
-                //         color: $colorP !important;
-                //     }
             }
         }
 
