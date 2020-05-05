@@ -2062,10 +2062,10 @@ $colorQ:#e9ecef;
 
         h1 {
             text-align: center;
-            font-size: 24px;
+            font-size: 25px;
             line-height: 1.8rem;
             color: $colorG;
-            font-weight: 600;
+            font-weight: 700;
             width: 80%;
             margin: 20px auto;
         }
@@ -2096,7 +2096,7 @@ $colorQ:#e9ecef;
                 .bar {
                     height: 100%;
                     width: calc(1* calc(100% / 22));
-                    background-color: $colorV;
+                    background-color: $colorP;
                     border-bottom-left-radius: 20px;
                     border-top-left-radius: 20px;
                 }
