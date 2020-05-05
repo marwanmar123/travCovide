@@ -2191,10 +2191,76 @@ $colorQ:#e9ecef;
 
 }
 
-@media only screen and(max-width:1800px) {
+@media only screen and(max-width:1879px) {
     .testing {
         .hr {
             display: none;
         }
+    }
+}
+
+.error {
+    text-align: center;
+    margin-top: 17em;
+
+    &__h1 {
+        color: $fontColor;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    &__a {
+        background-color: #1078ad;
+        text-decoration: none;
+        border: none;
+        border-radius: .2em;
+        padding: 0em 2em 0em 2em;
+        height: 2em;
+        color: #fff;
+        font-weight: bold;
+        font-size: 2em;
+        outline: none;
+        cursor: pointer;
+
+        &:active {
+            box-shadow: 0em .3em .2em .1em rgb(20, 105, 161) inset;
+        }
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .error {
+        text-align: center;
+        margin-top: 17em;
+
+        &__img {
+            width: 20em;
+        }
+
+        &__h1 {
+            color: $fontColor;
+            font-size: 3em;
+            font-weight: 700;
+        }
+
+        &__a {
+            background-color: #1078ad;
+            text-decoration: none;
+            border: none;
+            border-radius: .2em;
+            padding: 0em 1em 0em 1em;
+            height: 2em;
+            color: #fff;
+            font-weight: bold;
+            font-size: 2em;
+            outline: none;
+            cursor: pointer;
+
+            &:active {
+                box-shadow: 0em .3em .2em .1em rgb(20, 105, 161) inset;
+            }
+        }
+
     }
 }
