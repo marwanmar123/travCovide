@@ -350,9 +350,6 @@ animateBox.addEventListener('change', (e) => {
 
             nextBtn.disabled = false;
         }
-        // else {
-        //     nextBtn.disabled = true
-        // }
 
     } else {
 
@@ -362,8 +359,6 @@ animateBox.addEventListener('change', (e) => {
     }
 
 })
-
-// ! :::::::::::::::::::     fuction
 
 let position = 0
 
@@ -395,7 +390,7 @@ nextBtn.addEventListener('click', () => {
         showQuestion(questions[position])
         folowProgress(position)
         hideprevious()
-        nextBtn.disabled = true
+        // nextBtn.disabled = true
         if (position === 21) {
             nextBtn.innerText = 'Terminer le test'
             nextBtn.classList.add('result')
