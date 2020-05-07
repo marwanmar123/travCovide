@@ -2120,6 +2120,7 @@ $colorQ:#e9ecef;
             padding: 5px;
             font-weight: 600;
             width: 55%;
+            min-width: 50%;
         }
 
         .input-span {
@@ -2164,7 +2165,7 @@ $colorQ:#e9ecef;
         flex-wrap: w;
 
         button {
-            width: 20%;
+            width: 30%;
             font-size: 22px;
             font-weight: bold;
             background-color: $colorP;
@@ -2190,6 +2191,7 @@ $colorQ:#e9ecef;
     }
 
 }
+
 
 @media only screen and(max-width:1879px) {
     .testing {
