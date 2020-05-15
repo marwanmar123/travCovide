@@ -225,7 +225,7 @@ $colorQ:#e9ecef;
         margin-top: 4.7em;
 
         &__dernière {
-            font-size: 1.5em;
+            font-size: .8em;
             font-weight: 700;
             text-align: center;
 
@@ -236,7 +236,7 @@ $colorQ:#e9ecef;
             margin: 0 auto;
             text-align: center;
             font-weight: bold;
-            font-size: 1em;
+            font-size: .5em;
             line-height: 2em;
             color: $fontColor;
         }
@@ -593,7 +593,7 @@ $colorQ:#e9ecef;
 
         &__img {
             img {
-                width: 20em;
+                width: 18em;
             }
 
         }
@@ -602,9 +602,9 @@ $colorQ:#e9ecef;
             text-align: center;
 
             &--h1 {
-                line-height: 1.4em;
-                width: 18em;
-                font-size: 1.3em;
+                line-height: 1.2em;
+                width: 15em;
+                font-size: 1em;
                 font-weight: bold;
                 color: $fontColor;
             }
@@ -615,7 +615,7 @@ $colorQ:#e9ecef;
 
             &--p {
                 line-height: 1.4em;
-                font-size: 1.1em;
+                font-size: .9em;
                 font-weight: bold;
                 color: #7F7F7F;
             }
@@ -624,11 +624,11 @@ $colorQ:#e9ecef;
                 background-color: #1078ad;
                 border: none;
                 border-radius: .2em;
-                width: 15em;
+                width: 11em;
                 height: 2em;
                 color: #fff;
                 font-weight: bold;
-                font-size: 1.2em;
+                font-size: 1em;
                 outline: none;
                 margin-top: 1em;
                 cursor: pointer;
@@ -761,7 +761,7 @@ $colorQ:#e9ecef;
     }
 
     .fourSymp {
-        width: 26em;
+        width: 18em;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1880,14 +1880,14 @@ $colorQ:#e9ecef;
         margin: 1em auto;
         display: flex;
         flex-direction: column;
-        width: 20em;
+        width: 18em;
 
         &__projection {
             text-align: center;
             padding-bottom: 1em;
 
             img {
-                width: 4em;
+                width: 3em;
             }
 
             h1 {
@@ -1900,11 +1900,11 @@ $colorQ:#e9ecef;
             text-align: center;
 
             img {
-                width: 4em;
+                width: 3em;
             }
 
             h1 {
-                font-size: .9em;
+                font-size: .7em;
                 color: $listColor;
             }
         }
@@ -1979,7 +1979,7 @@ $colorQ:#e9ecef;
         justify-content: space-around;
 
         h1 {
-            font-size: 20px;
+            font-size: 1.5vw;
             color: $colorP;
             position: relative;
             display: flex;
